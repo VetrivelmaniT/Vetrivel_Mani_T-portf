@@ -1,0 +1,109 @@
+/* Custom styles to complement Tailwind CSS */
+
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Styles */
+header {
+    transition: background-color 0.3s ease;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #d1d5db;
+}
+
+/* About Section Styles */
+.profile-photo {
+    transition: transform 0.3s ease;
+}
+
+.profile-photo:hover {
+    transform: scale(1.05);
+}
+
+/* Skills Section Styles */
+.skill-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+/* Visionary Section Styles */
+#visionary {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Projects Section Styles */
+.project-link {
+    transition: color 0.3s ease;
+}
+
+.project-link:hover {
+    color: #4338ca;
+}
+
+/* Education Section Styles */
+.education-item {
+    transition: transform 0.3s ease;
+}
+
+.education-item:hover {
+    transform: translateY(-3px);
+}
+
+/* Resume Button Styles */
+.resume-btn {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.resume-btn:hover {
+    transform: translateY(-2px);
+}
+
+/* Contact Section Styles */
+.contact-link {
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: #4338ca;
+}
+
+/* Footer Styles */
+footer {
+    background-image: linear-gradient(135deg, #4338ca 0%, #5b21b6 100%);
+}
+
+/* Responsive Font Sizes */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+
+/* Smooth Scroll Behavior */
+html {
+    scroll-behavior: smooth;
+}
+
